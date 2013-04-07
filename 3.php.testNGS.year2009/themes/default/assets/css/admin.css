@@ -1,0 +1,208 @@
+body.contentpane {
+	margin: 0;
+	padding: 5px;
+	font: normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background:#dedede;
+}
+option.level2{
+	font-weight: bolder;
+}
+
+#pagewidth{ 
+	width:100%; 
+	text-align:left;  
+	margin-left:auto; 
+	margin-right:auto;  
+	height: 100%;
+} 
+
+#header{
+ position:relative; 
+ height:145px; 
+ width:100%;
+
+} 
+
+#wrapper{
+
+	margin-bottom: 5px;
+} 
+
+#leftcol{
+ width:21%; 
+ float:left; 
+ position:relative; 
+
+ }
+ 
+#twocols{
+ width:79%; 
+ float:right; 
+ position:relative; 
+  }
+ 
+#rightcol{
+ width:29%; 
+ float:right; 
+ position:relative; 
+
+ }
+ 
+#maincol{
+
+ float: left; 
+ display:inline; 
+ position: relative; 
+ width:79%; 
+ }
+ 
+
+#twocols,#rightcol,#leftcol{
+	 min-height: 300px;
+}
+
+#footer{
+ height:55px; 
+ clear:both;
+
+} 
+/*
+ * Свистелки и перделки чтоб динамически формировать сайдбары
+ */
+#twocols.noleft{
+ width:100%; 
+ float:right; 
+ position:relative; 
+}
+#twocols.noright #maincol{
+	width:100%; 
+} 
+ /* *** Float containers fix:
+ http://www.csscreator.com/attributes/containedfloat.php *** */ 
+.clearfix:after {
+ content: "."; 
+ display: block; 
+height: 0; 
+ clear: both; 
+ visibility: hidden;
+ }
+ 
+.clearfix{display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+/* End hide from IE-mac */  
+
+ /*printer styles
+ @media print{ 
+#leftcol{display:none;} 
+#rightcol{display:none;} 
+#twocols, #maincol{width:100%; float:none;}
+}
+*/
+
+.sbleft,
+.sbright,
+.sbhead,
+.sbfoot,
+.tmpl_body 
+{
+	padding: 5px;
+
+}
+
+#left_panel div.icon {
+height: 16px;
+width: 16px;
+}
+
+.sbhead h2.header{
+	background:transparent none repeat scroll 0 0;
+	border:0 none;
+	line-height:normal;
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-size: 1.5em !important;
+}
+.sbhead,
+.sbfoot{
+
+	border:1px solid #999999;
+	background:#EFEFEF;	
+	-moz-border-radius: 15px;
+	overflow:hidden;
+	
+}
+.sbfoot{
+/*	height: 100%;*/
+}
+/**
+ * Хаки стандартов UI
+ */
+.ui-dialog-titlebar-close{
+	float:right !important;
+} 
+.ui-resizable-handle.ui-resizable-se.ui-icon{
+	float:right !important;
+	margin-top: 5px;
+}
+
+.ui-state-highlight{
+	background:#FFE45C !important;
+	border:1px solid #FED22F;
+	color:#363636;
+}
+/**
+ * стандартные сообщения пользователям
+ */
+div#dialog-message{
+	padding: 5px;
+	display: none;
+}
+
+div#dialog-message ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+div#dialog-message ul li{
+	padding: 5px 5px 5px 27px;
+}
+div#dialog-message.ui-state-error {
+	background:#FB6161 none repeat scroll 0 0 !important;
+	border:1px solid red;
+	color: #ffffff;
+}
+textarea:focus,
+input[type='text']:focus,
+input[type='password']:focus,
+select:focus {
+	border-color: #8c8c8c;
+	outline: 2px solid #dcdcdc;
+}
+ 
+.icon-32-home {
+	background: url(../img/icons/home32.png) no-repeat 0 50%!important;
+}
+.icon-48-home {
+	background: url(../img/icons/home48.png) no-repeat 0 50%!important;
+}
+.icon-32-fields {
+	background: url(../img/icons/fields32.png) no-repeat 0 50%!important;
+}
+
+.icon-48-fields {
+	background: url(../img/icons/fields48.png) no-repeat 0 50%!important;
+}
+.icon-32-tree {
+	background: url(../img/icons/tree32.png) no-repeat 0 50%!important;
+}
+.icon-48-home {
+	background: url(../img/icons/tree48.png) no-repeat 0 50%!important;
+}
+.icon-32-sync {
+	background: url(../img/icons/sync32.png) no-repeat 0 50%!important;
+}

@@ -1,0 +1,25 @@
+span.new a {
+	background:transparent url(../../img/icons/add16.png) no-repeat scroll 0 0;
+	padding-left:20px;
+}
+span.edit a {
+	background:transparent url(../../img/icons/edit16.png) no-repeat scroll 0 0;
+	padding-left:20px;
+}
+span.delete a {
+	background:transparent url(../../img/icons/del16.png) no-repeat scroll 0 0;
+	padding-left:20px;
+}
+span.move a {
+	background:transparent url(../../img/icons/refresh16.png) no-repeat scroll 0 0;
+	padding-left:20px;
+}
+
+span.folder{
+	background:transparent url(../../img/tree/folder.png) no-repeat scroll 0 0;
+	padding-left:20px;	
+}
+span.file{
+	background:transparent url(../../img/tree/file.png) no-repeat scroll 0 0;
+	padding-left:20px;		
+}

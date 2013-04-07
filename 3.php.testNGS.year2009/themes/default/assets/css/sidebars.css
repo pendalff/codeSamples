@@ -1,0 +1,107 @@
+h2.header{
+	margin: 0px;
+	text-align: center;
+	font-family:Arial;
+}
+div.top_icon{
+	display: block;
+	width: 128px;
+	height: 128px;
+	float: left;
+	margin-top:-22px;
+}
+div.switcher_wrapper{
+	margin: -20px 0 -5px 0;
+	float: right;
+}
+ul.topToolbar{
+	/*width: 100%;*/
+	margin: 5px auto;
+	overflow: hidden;
+	list-style: none;
+	padding: 0px;
+	float: right;
+}
+ul.topToolbar li{
+	display: block;
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+ul.topToolbar li:last-child{
+	float: right;
+}
+.ui-state-default a.button{
+	display: block;
+	width: 100px;
+	height: 90px;
+	text-align: center;
+}
+a.button img{
+	margin: 0 auto;
+	padding: 8px 0;
+}
+.ui-state-hover a.button.active{
+	background: #fff;	
+	color: #d96464 !important;
+}
+
+a.button.active{
+	background: #fff;	
+	color: red !important;
+}
+
+a.button span { 
+	display: block; 
+	text-align: center; 
+	font-weight:normal;
+}
+.sbfoot p{
+	text-align: center;
+}
+
+input.ui-state-default:focus,
+select.ui-state-default:focus,
+textarea.ui-state-default:focus{
+	/*background:  transparent;*/
+}
+/*
+div.subhead_icon{
+	height:48px;
+	width:48px;
+	float: left;
+	margin-left:20px;
+	margin-top:20px;
+}
+*/
+div.button_panel{
+	width: auto;
+	min-width: 300px;
+	padding: 3px;
+	margin-bottom: 10px;
+}
+ul.subheadToolbar{
+	margin: 0 7px;
+	overflow: hidden;
+	list-style: none;
+	padding: 0px;
+	clear: right;
+}
+ul.subheadToolbar li{
+	display: block;
+	width: 70px;
+	float: left;
+	margin-right: 10px;
+}
+ul.subheadToolbar li a.button{
+	display: block;
+	width: 70px;
+	min-height: 65px;
+	height: 65px;
+	max-height: 80px;
+	text-align: center;
+	/*color: #fff;*/ 
+}
+ul.subheadToolbar a.button img{
+   padding: 5px 0;
+}

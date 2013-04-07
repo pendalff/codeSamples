@@ -1,0 +1,134 @@
+.portlet_wrapper{
+
+}
+.portlet_wrapper.ui-widget-content{
+	z-index: 100;
+}
+.portlet_helper{
+	float:right;
+	margin-bottom:8px;
+	padding:4px 0 0;
+	width:100%;
+	cursor: move;
+}
+
+.portlet_helper b{
+	display: block;
+	margin-left: 15px;
+	float: left;
+}
+
+.portlet_helper div.icon{
+	float: right;
+	margin-right: 5px;
+	margin-bottom: 3px;	
+	width: 15px;
+}
+.portlet_helper span{
+	cursor: pointer;
+}
+div.portlet_helper.ui-corner-bottom{
+	
+}
+.widget{
+	min-width: 180px;
+	max-width: 600px;
+	margin: 0 0 6px !important;
+}
+.widget.ui-widget{
+	z-index: 1;	
+}
+.widget-header{
+	margin:0.1em;
+	padding-bottom:3px;
+	padding-left:0.4em;	
+	cursor: move;
+}
+
+.widget-header .ui-icon { 
+	float: right;
+	cursor: pointer; 
+}
+
+.widget-content{
+ padding:0.4em;	
+}
+.widget-content p{
+	text-align: justify;
+	text-indent: 10px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+
+ul.portlet{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	min-height: 50px;
+}
+
+ul.portlet li{
+    margin: 0;
+	width: 100%;
+}
+
+.ui-sortable-placeholder { 
+border: 1px dotted black; 
+visibility: visible !important; 
+max-height: 85px !important;
+}
+.ui-sortable-placeholder * { 
+visibility: hidden; 
+}
+
+div.tabs{
+	
+}
+div.tabs div{
+
+}
+div.tabs div.ui-tabs-panel {
+	padding: 5px;
+}
+.ui-tabs-hide{
+	display: none;
+}
+
+div.tabs ul li{
+	max-width: 200px;
+	float: left;
+	min-width: 50px;
+	padding: 3px 5px;
+	margin:0 0.2em -1px 0;
+}
+.ui-dialog-buttonpane{
+	
+}
+/**
+ * Пошли стили отдельных виджетов
+ */
+div#ajaxinfo{
+	min-height: 30px;
+}
+div#ajaxinfo div.message{
+	
+	font: 14px Arial, Helvetica, sans-serif;
+	min-width: 200px;
+	max-width: 250px;
+}
+div#ajaxinfo div.message span{
+	float: left;
+}
+div#ajaxinfo div#ajax_indicator{
+	background: url(../img/preloader.gif) no-repeat 0 0 transparent;
+	display:block;
+	position:relative;
+	float:right;
+	height:24px;
+	width:24px;
+	margin-bottom:-24px;
+	right: 15px;
+	top: -2.6em;
+}

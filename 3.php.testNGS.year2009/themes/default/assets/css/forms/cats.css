@@ -1,0 +1,82 @@
+.element_wrapper input[type=text],
+.element_wrapper select {
+	font: 14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	min-width: 350px; 
+}
+option.level2, option.bold{
+	font-weight: bolder;
+}
+option.level3{
+	
+}
+div.label{
+	min-width: 160px;
+}
+.element_wrapper{
+	margin-left: 90px;
+	margin-bottom: 10px !important;
+}
+.element_wrapper fieldset{
+	width: 650px;
+}
+.editing fieldset{
+	background: transparent url(../../img/icons/edit48.png) no-repeat scroll 20px 20px
+}
+.adding fieldset{
+	background: transparent url(../../img/icons/add48.png) no-repeat scroll 20px 20px
+}
+
+div.photoset{
+	/*width: 100%;*/
+	overflow: hidden;
+	margin-top: 15px;
+	padding: 5px;
+}
+.photoset #uploader{
+	width: 300px;
+	float:left;
+	border: 1px solid silver;
+	padding: 5px;
+}
+.photoset #uploader #file{
+	margin: 10px auto;
+	display: block;
+	width: 100px;
+}
+#photolist{
+	float: right;
+}
+ul#list{
+	list-style: none;
+	float: left;
+	padding: 0;
+	margin: 0;
+	min-width: 450px;
+	max-width: 650px;
+	overflow: hidden;
+}
+#list li{
+	min-width: 100px;
+	max-width: 300px;
+	min-height: 100px;
+	max-height: 300px;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	border: 1px solid silver;
+	position: relative;
+}
+#list li a img{
+	display: block;
+	margin: 0 auto;
+}
+#list div.act{
+	
+}
+#list span.delete{
+	cursor: pointer;
+	display:block;
+	position:absolute;
+	right: -16px;
+	top:   -4px;
+}

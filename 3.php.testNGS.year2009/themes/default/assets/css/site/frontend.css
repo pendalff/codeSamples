@@ -1,0 +1,217 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+h1{
+	font-size: 200%;
+	font-weight: normal;	
+}
+h2{
+	font-size: 150%;
+	font-weight: normal;	
+}
+h3{
+	font-size: 140%;
+	font-weight: normal;	
+}
+h4{
+	font-size: 120%;
+	font-weight: normal;	
+}
+h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 80px;
+	background: #FFE680;
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+#header ul{
+	padding: 0 0 0 5px;
+	margin-top: 15px;
+}
+#header li{
+	display: block;
+	min-width: 150px;
+	float: left;
+	margin: 3px 5px 3px 0; 
+	height: 20px;
+	background: #67a3b9;
+	text-align: center;
+	padding: 3px 0 0 0;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+	padding: 0 0 100px;
+}
+
+div.list{}
+
+div.list .elem,
+div#topics .elem{
+	min-height: 50px;
+	background: #eaebec;
+	overflow: auto;
+	padding: 5px;
+}
+div.list .elem.even,
+div#topics .elem.even{
+	background: #d8d8d8;;
+}
+div.list .elem a.title,
+div#topics .elem a.title
+{
+	display: block;
+	text-decoration: none;
+	font: bold 120% Arial, Helvetica, sans-serif;
+}
+div.list .elem .caption,
+div#topics .elem .caption
+{
+	width: 85%;
+	float: left;
+}
+div.list .elem .count,
+div#topics .elem .count
+{
+	width: 14%;
+	float: right;
+}
+div#errors{
+	margin-bottom: 20px; 
+	width: 670px; 
+	border: 1px solid #ff0000; 
+	clear: both;
+	overflow: auto;
+	padding: 5px;
+}
+div#form{
+	width: 680px;
+	margin: 0 auto;
+}
+div#form form {
+	overflow:auto; 
+}
+div#form form label.label{
+	display: block;
+	width: 280px;
+	float: left;
+	font: bold 12px Arial;
+}
+div#form form input[type=text],
+div#form form input[type=password]{
+	width: 400px;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	width: 1000px;
+	margin: -100px auto 0;
+	height: 100px;
+	background: #BFF08E;
+}
+#topics div.list{
+	padding-top: 20px;
+}
+
+#topics div.list ul.level0{
+	margin-bottom: 20px;
+}
+
+#topics div.list li{
+	list-style-type:none;
+	margin-bottom:5px;
+	padding:1em;
+	border:1px solid #d0d0d0;
+	border-left:2px solid #d0d0d0;
+	border-right:2px solid #d0d0d0;
+	background-color:#8EA3E3;
+}
+#topics div.list li li{ background-color:#9DAEE3;}
+#topics div.list li li li{ background-color:#ABB9E3;}
+#topics div.list li li li li{ background-color:#B9C3E3;}
+#topics div.list li li li li li{ background-color:#C7CEE3;}
+
+#topics div.list li li li li li li{ background-color:#8EE3A4;}
+#topics div.list li li li li li li li{ background-color:#9DE3AE;}
+#topics div.list li li li li li li li li{ background-color:#ABE3B9;}
+#topics div.list li li li li li li li li li{ background-color:#B9E3C4;}
+#topics div.list li li li li li li li li li li{ background-color:#C7E3CE;}
+
+#topics div.list li li li li li li li li li li li{ background-color:#E3CA80;}
+#topics div.list li li li li li li li li li li li li{ background-color:#E3CE8E;}
+#topics div.list li li li li li li li li li li li li li{ background-color:#E3D19D;}
+#topics div.list li li li li li li li li li li li li li li{ background-color:#E3D5AB;}
+#topics div.list li li li li li li li li li li li li li li li{ background-color:#E3D9B9;}
+
+
+.list ul{  padding:0; }
+.list ul ul { margin: 2em 1em 1em 1em;}
+.list ul ul ul { margin:2em 1em 1em 1em;}
+.list ul ul ul { margin: 2em 1em 1em 1em;}
+.list ul ul ul ul ul { margin: 2em 0.5em 1em 1em;}
+.list ul ul ul ul ul ul { margin: 2em 0.5em 1em 1em;}
+.list ul ul ul ul ul ul ul { margin: 2em 0.5em 1em 1em;}

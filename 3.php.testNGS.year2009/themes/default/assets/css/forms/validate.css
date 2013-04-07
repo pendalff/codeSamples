@@ -1,0 +1,99 @@
+div.form_wrapper{
+	padding: 5px;
+	overflow:auto;
+	font: 12pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+div.field{
+	margin-bottom: 5px;
+	overflow: auto;
+}
+span.label{
+	display: block;
+	min-width: 210px;
+	float: left;
+	color: #4e4e4e;
+} 
+
+.field input,
+.field select {
+	color: #000;
+	background: #ffffff;
+	min-width: 300px;
+}
+.field input:hover, 
+.field input:focus,
+.field select:hover, 
+.field select:focus
+
+{
+	background: #feffb0;
+}
+.field textarea{
+	color: #000;
+	background: #ffffff;
+	min-width: 300px;
+	width: 800px;
+}
+input[type=submit]{
+	margin-right: 20px;
+	margin-left:  10px;
+	font-size:14px;
+}
+
+button{
+	margin-right: 20px;
+	border:1px solid silver;
+	font-size:14px !important;
+}
+.field input.error{
+	background:#FB6161 none repeat scroll 0 0 !important;
+	border:1px solid red;
+	color: #ffffff;
+}
+div.group{
+	padding:5px 5px 5px 20px;
+	margin-bottom: 10px;
+}
+div.group h2{
+	font: 18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0;
+	text-align: left;
+}
+span.detail{
+	display: block;
+	color: red;
+	font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	clear: both;
+	padding-left: 15px;
+}
+div.group.tabs{
+	
+}
+div.group.tabs ul{
+	padding: 5px 5px 0 5px;
+	margin-bottom: 5px;
+}
+.field.checkboxes {
+    margin-bottom: 20px;
+}
+.checkboxes .field label{
+	font: 11px Arial, Helvetica, sans-serif;
+	float: left;
+}
+.checkboxes .field input[type=checkbox]{
+	width: 20px;
+	min-width: 20px;
+	margin: 0px; 
+}
+.checkboxes span.field{
+    clear: both;
+    float: left;	
+}
+.checkboxes .field .checkbox{
+	display: block;
+	float: left;
+	width: 200px;
+	    margin-right: 10px;
+}
+div.pub{}
+div.paid{}

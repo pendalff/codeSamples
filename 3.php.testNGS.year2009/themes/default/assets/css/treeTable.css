@@ -1,0 +1,102 @@
+/* jQuery TreeTable Core 2.0 stylesheet
+ *
+ * This file contains styles that are used to display the tree table. Each tree
+ * table is assigned the +treeTable+ class.
+ * ========================================================================= */
+
+/* jquery.treeTable.collapsible
+ * ------------------------------------------------------------------------- */
+
+table.treeTable{
+	width: 100%;
+	clear:both;
+	border-collapse: collapse;
+	border: 0px;
+}
+
+.treeTable th{
+	/*background: #DDDDDD;*/
+}
+.td_box{
+	width: 20px;
+}
+.td_name{
+	min-width: 300px;	
+	padding-left: 20px;
+}
+.td_level{
+	width: 25px;
+}
+
+.td_actions{
+	min-width: 280px;
+/*	padding-left: 10px;*/
+}
+.td_actions span{
+	margin-right: 10px;
+}
+.tree_footer a{
+	color: #FFE;
+}
+/* jquery.treeTable
+ * ------------------------------------------------------------------------- */
+.clear-element {
+	clear: both;
+	position: relative;
+}
+
+.current-nesting {
+	background-color: #FFE;
+}
+
+.sort-handle {
+	cursor:move;
+	margin: 0.25em 0 0 0;
+	padding: 2px 0 2px 18px;
+	background: #f3F3F3 left center url(../img/tree/toggle-expand-dark.png) no-repeat;
+}
+
+tr.selected a{
+	color: #fff;
+}
+
+span.ui-draggable{
+	cursor: move;
+}
+
+/* jquery.treeTable.expander
+ * ------------------------------------------------------------------------- */
+.treeTable tr td .expander {
+	background-position: left center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	padding: 0;
+	zoom: 1; /* IE7 Hack */
+}
+.treeTable tr.collapsed td .expander {
+	background-image: url(../img/tree/toggle-expand-dark.png);
+}
+
+.treeTable tr.expanded td .expander {
+	background-image: url(../img/tree/toggle-collapse-dark.png);
+}
+
+/* jquery.treeTable.sortable
+ * ------------------------------------------------------------------------- */
+.treeTable tr.selected, .treeTable tr.accept {
+	background-color: #3875d7 !important;
+	color: #fff !important;
+}
+
+.treeTable tr.collapsed.selected td .expander, .treeTable tr.collapsed.accept td .expander {
+	background-image: url(../img/tree/toggle-expand-light.png);
+}
+
+.treeTable tr.expanded.selected td .expander, .treeTable tr.expanded.accept td .expander {
+	background-image: url(../img/tree/toggle-collapse-light.png);
+}
+
+.treeTable .ui-draggable-dragging {
+	color: #000;
+	z-index: 1;
+}

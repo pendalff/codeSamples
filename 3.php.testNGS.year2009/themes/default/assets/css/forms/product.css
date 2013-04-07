@@ -1,0 +1,97 @@
+.element_wrapper input ,
+.element_wrapper select{
+	font: 14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	min-width: 600px;
+}
+.element_wrapper textarea{
+	font: 14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 450px;
+}
+
+div.label{
+	min-width: 210px;
+}
+.element_wrapper{
+	margin-left: 80px;
+	margin-bottom: 10px !important;
+}
+.element_wrapper fieldset{
+	width: 700px;
+}
+.editing fieldset{
+	background: transparent url(../../img/icons/edit48.png) no-repeat scroll 20px 20px
+}
+.adding fieldset{
+	background: transparent url(../../img/icons/add48.png) no-repeat scroll 20px 20px
+}
+
+div.photoset{
+	/*width: 100%;*/
+	overflow: hidden;
+	margin-top: 15px;
+	padding: 5px;
+}
+.photoset #uploader{
+	width: 300px;
+	float:left;
+	border: 1px solid silver;
+	padding: 5px;
+}
+.photoset #uploader #file{
+	margin: 10px auto;
+	display: block;
+	width: 100px;
+}
+#photolist{
+	float: right;
+}
+ul#list{
+	list-style: none;
+	float: left;
+	padding: 0;
+	margin: 0;
+	min-width: 450px;
+	max-width: 650px;
+	overflow: hidden;
+}
+#list li{
+	min-width: 100px;
+	max-width: 300px;
+	min-height: 100px;
+	max-height: 300px;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	border: 1px solid silver;
+	position: relative;
+}
+#list li a img{
+	display: block;
+	margin: 0 auto;
+}
+#list div.act{
+	
+}
+#list span.delete{
+	cursor: pointer;
+	display:block;
+	position:absolute;
+	right: -16px;
+	top:   -4px;
+}
+#list span.rotater{
+	cursor: pointer;
+	display:block;
+	margin:0 0 -16px;
+	position:absolute;
+	right:18px;
+	top:0;
+}
+#list span.rotatel{
+	cursor: pointer;
+	display:block;
+	margin:0 0 -16px;
+	position:absolute;
+	right:18px;
+	top:0;
+}
